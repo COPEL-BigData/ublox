@@ -2,7 +2,7 @@
 
 <launch>
   <arg name="node_name" />
-  <arg name="param_file_name" doc="name of param file, e.g. rover" />
+  <arg name="param_file_name" doc="name of param file, e.g. rover" default="zed_f9p" />
   <arg name="output" default="screen" />
   <arg name="respawn" default="true" />
   <arg name="respawn_delay" default="30" />
